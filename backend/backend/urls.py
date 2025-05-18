@@ -19,6 +19,7 @@ from django.urls import path
 from api.views import ping_view
 
 urlpatterns = [
+    path('', ping_view, name='ping-root'),
     path('admin/', admin.site.urls),
     path('api/ping/', ping_view, name='ping'),
 ]
