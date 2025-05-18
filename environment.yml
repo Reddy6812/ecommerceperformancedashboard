@@ -1,0 +1,12 @@
+name: ecommerceperformancedashboard
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - nodejs>=16
+  - pip
+  - pip:
+    - django
+    - djangorestframework
+    - pyspark
+    - psycopg2-binary 
